@@ -8,25 +8,25 @@
     "lint": "eslint --ext .js ."
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.32.0",
-    "@typescript-eslint/parser": "^4.32.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
     "@vue/eslint-config-typescript": "^7.0.0",
     "@vue/eslint-plugin": "^4.2.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.28.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jest": "^24.1.5",
-    "eslint-plugin-jsdoc": "^32.2.0",
+    "eslint-plugin-jest": "^24.7.0",
+    "eslint-plugin-jsdoc": "^32.3.4",
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-standard": "^5.0.0",
-    "eslint-plugin-vue": "^7.7.0",
-    "prettier": "^2.8.3",
-    "typescript": "^4.7.4"
+    "eslint-plugin-vue": "^7.20.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
   }
 }
