@@ -1,0 +1,37 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    labels:
+      - 'skip-changelog'
+      - 'dependencies'
+    rebase-strategy: disabled
+
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+      time: "04:00"
+    open-pull-requests-limit: 10
+    labels:
+      - skip-changelog
+      - dependencies
+    versioning-strategy: increase
+    rebase-strategy: disabled
+    ignore:
+      - dependency-name: "eslint*"
+      - dependency-name: "babel-eslint"
+      - dependency-name: "rollup*"
+      - dependency-name: "babel-jest"
+      - dependency-name: "@rollup/*"
+      - dependency-name: "@typescript-eslint/*"
+      - dependency-name: "cssnano"
+      - dependency-name: "*jest*"
+      - dependency-name: "*cypress*"
+      - dependency-name: "prettier*"
+      - dependency-name: "regenerator-runtime*"
+      - dependency-name: "shx*"
+      - dependency-name: "@vue/*"
+      - dependency-name: "concurrently"
