@@ -10,7 +10,7 @@
     "lint": "eslint --ext .js ."
   },
   "devDependencies": {
-    "@babel/core": "^7.21.0",
+    "@babel/core": "^7.21.8",
     "eslint-config-meilisearch": "*"
   },
   "browserslist": [
